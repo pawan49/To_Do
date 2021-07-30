@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: powderblue;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 20rem;
+  margin-top: 3rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.section-center .todo-form h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section-center .todo-form .form-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+.section-center .todo-form .form-control .input-item {
+  width: 100%;
+  padding: 4px;
+  outline: none;
+}
+.submit-btn {
+  border: none;
+  padding: 4px;
+  background-color: powderblue;
+  text-transform: capitalize;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.submit-btn:hover {
+  background-color: royalblue;
+  color: white;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  background-color: rgb(234, 245, 245);
+  padding: 4px 6px;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.todo-item .edit-btn {
+  border: none;
+  padding: 4px;
+  background-color: lightgreen;
+  text-transform: capitalize;
+  border-radius: 4px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.todo-item .delete-btn {
+  border: none;
+  padding: 4px;
+  background-color: lightsalmon;
+  text-transform: capitalize;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.clear-btn {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  background-color: lightsalmon;
+  text-transform: capitalize;
+  border-radius: 4px;
+  font-weight: bold;
+
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
